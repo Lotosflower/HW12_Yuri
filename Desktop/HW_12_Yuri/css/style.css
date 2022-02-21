@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contacts__options{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contacts{
+   padding-top: 25px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contact__name, .contact__phone, .contact__email, .contact__address{
+    height: 20px;
+    background-color: rgb(194, 159, 159);
+}
+
+.contact__button__add{
+    background-color: black;
+    color: whitesmoke;
+    height: 30px;
+}
+
+.contact__button__add:hover{
+    background-color: rgb(122, 211, 39);
+  
+}
+
+    
+
+.contacts__items{
+    background-color: rgb(224, 228, 240);
+    list-style: none;
+}
+
+.contact__item p{
+    margin-left: 5px;
+}
+
+.contact__item__delete{
+    background-color: red;
+    border-radius: 7px;  
+}
+
+.contact__item__delete:hover{
+    height: 40px;
+    width: 100px;
+    animation: bounce 1s;
+    border-radius: 7px; 
+}
+
+.contact__item__edit{
+    background-color: yellowgreen;
+    
+}
+
+.contact__item__edit:hover{
+    height: 40px;
+    width: 100px;
+    animation: bounce 1s;
+    border-radius: 7px;
+}
+
+
+
